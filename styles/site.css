@@ -1,6 +1,6 @@
 body{
-	font-family:Times New Roman;
-    background-color: black;
+	font-family:'Roboto', sans-serif;
+    background-color: #21325E;
 	background-size:;
 	margin-left:auto;
 	margin-right:auto;
@@ -37,7 +37,7 @@ menu{
 	padding: 3px 5px;
 	margin-top:20px;
 	margin-bottom:0px;
-	color:white;
+	color:#21325E;
 	text-shadow: 2px 1px 5px white;
 }
 
@@ -48,10 +48,9 @@ menu{
 	margin-right:auto;
     padding: 10x 20px;
     overflow: hidden;
-    background-color: silver;
-	width:920px;
+    background-color: #F1D00A;
+	width: 60.5%;
 	height:60px;
-	opacity: 0.7;
 	border-radius:7px;
 }
 .menu li  a{
@@ -59,7 +58,8 @@ menu{
     display: block;
     color: black;
     text-align: center;
-    padding: 22px 80px;
+    padding: 8px 74px;
+	padding-top: 22px;
     text-decoration: none;
 }
 li a:hover {
@@ -73,42 +73,44 @@ li a:hover {
 	clear:both;
     list-style-type: none;
     margin-left:auto;
-	margin-right:120px;
+	margin-right:250px;
+	padding-top: 50px;
     padding: 11x 20px;
     overflow: hidden;
-    background-color: silver;
 	width:150px;
-	opacity: 0.7;
+	height: 40px;
+	opacity: 1;
 	border-radius:7px;
 }
 
 .forms li  a{
     float:left;
     display: inline;
-    color: black;
+    color: #F1D00A;
     text-align: center;
     padding: 4px 7px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
 	color:black;
 	transition:0.35s;
 	text-transform:bold;
+	border-radius:7px;
+	height: 30px;
 }
 
 .myslides{
-	width:30%;
+	width:26%;
 	height:100%;
 	float:left;
 	padding:90px;
-	margin-left:-260px;
+	margin-left:-191px;
 	padding-left:-150px;
 	display:inline;
-	margin-top:150px;
+	margin-top:-6px;
 	
 }
-
 
 
  h2{
